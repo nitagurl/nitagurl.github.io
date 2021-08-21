@@ -1,5 +1,7 @@
 //FOCUS ON QUESTION 1
 //Create spongebob fact and answer choices
+//give all incorrect answers the same class name
+//give all correct answers the same class name
 //make all incorrect answers equal zero points
 //make the one correct answer equal 50 points
 
@@ -13,6 +15,15 @@
 
 // console.log(wrongAnswer);
 // console.log(rightAnswer);
+
+const wrongAnswer = document.querySelector('.wrongAnswer');
+wrongAnswer.onclick = function () {
+    console.log("wrong answer");
+}
+const rightAnswer = document.querySelector('.rightAnswer');
+rightAnswer.onclick = function () {
+    console.log("right answer");
+}
 
 const submitButton = document.querySelector('#submitAnswers');
 submitButton.onclick = function () {
