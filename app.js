@@ -29,10 +29,32 @@ wrongAnswer3.onclick = function () {
     console.log("wrong answer");
 }
 
-const rightAnswer = document.querySelector('.rightAnswer');
-rightAnswer.onclick = function () {
+const rightAnswer1 = document.querySelector('#rightAnswer1');
+rightAnswer1.onclick = function () {
     console.log("right answer");
 }
+
+
+
+const wrongAnswer4 = document.querySelector('#wrongAnswer4');
+wrongAnswer4.onclick = function () {
+    console.log("wrong answer");
+}
+const wrongAnswer5 = document.querySelector('#wrongAnswer5');
+wrongAnswer5.onclick = function () {
+    console.log("wrong answer");
+}
+const wrongAnswer6 = document.querySelector('#wrongAnswer6');
+wrongAnswer6.onclick = function () {
+    console.log("wrong answer");
+}
+const rightAnswer2 = document.querySelector('#rightAnswer2');
+rightAnswer2.onclick = function () {
+    console.log("right answer");
+}
+
+
+
 
 const submitButton = document.querySelector('#submitAnswers');
 submitButton.onclick = function () {
