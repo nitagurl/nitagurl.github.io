@@ -6,9 +6,15 @@
 
 
 
-let playerAnswer;
-const wrongAnswer = 0;
-const rightAnswer = 50;
+// let playerAnswer;
+// const wrongAnswer = 0;
+// const rightAnswer = 50;
 //const userWins = the final total after all points are calculated in the end
 
-if ()
+// console.log(wrongAnswer);
+// console.log(rightAnswer);
+
+const submitButton = document.querySelector('#submitAnswers');
+submitButton.onclick = function () {
+    console.log("You submitted your answers!")
+}
