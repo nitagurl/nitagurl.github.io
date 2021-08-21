@@ -16,10 +16,19 @@
 // console.log(wrongAnswer);
 // console.log(rightAnswer);
 
-const wrongAnswer = document.querySelector('.wrongAnswer');
-wrongAnswer.onclick = function () {
+const wrongAnswer1 = document.querySelector('#wrongAnswer1');
+wrongAnswer1.onclick = function () {
     console.log("wrong answer");
 }
+const wrongAnswer2 = document.querySelector('#wrongAnswer2');
+wrongAnswer2.onclick = function () {
+    console.log("wrong answer");
+}
+const wrongAnswer3 = document.querySelector('#wrongAnswer3');
+wrongAnswer3.onclick = function () {
+    console.log("wrong answer");
+}
+
 const rightAnswer = document.querySelector('.rightAnswer');
 rightAnswer.onclick = function () {
     console.log("right answer");
