@@ -10,6 +10,43 @@
 
 // console.log(wrongAnswer);
 // console.log(rightAnswer);
+
+/////////////////////////////////////////////////////////////////
+//                  CORRECT/IINCORRECT LOGIC                   //
+/////////////////////////////////////////////////////////////////
+const rightAnswerGroup = true;
+const wrongAnswerGroup = false;
+
+
+const rightAnswerNotif = () => {
+    if (rightAnswerGroup === true) {
+        correctAlert();
+    } else if (wrongAnswerGroup === false) {
+        incorrectAlert();
+    }
+}
+
+const correctAlert = () => {
+    alert("You got it right!")
+}
+const incorrectAlert = () => {
+    alert("Oh Neptune. Wrong answer :(")
+}
+
+/////////////////////////////////////////////////////////////////
+//                       POINTS LOGIC                          //
+/////////////////////////////////////////////////////////////////
+let zeroPoints = 0;
+let twenteyPoints = 20;
+
+
+
+
+
+
+
+
+
 /////////////////////////////////////////////////////////////////
 //                     TRIVIA QUESTION 1                       //
 /////////////////////////////////////////////////////////////////
